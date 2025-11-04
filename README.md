@@ -188,15 +188,4 @@ Una vez hecho esto, el archivo `db.php` cargó correctamente en el navegador y m
 
 ---
 
-## Verificación final
-
-Para asegurarme de que todo el entorno quedara completamente automatizado, volví a destruir y recrear las máquinas con:
-
-```bash
-vagrant destroy -f
-vagrant up
-```
-
-El sistema se aprovisionó por completo de manera automática, instalando Apache, PHP, PostgreSQL y cargando los datos.
-Esto confirmó que los scripts de provisión funcionan correctamente sin intervención manual.
 
